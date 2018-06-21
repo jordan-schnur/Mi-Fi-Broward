@@ -1,0 +1,14 @@
+.footer{
+    background-color: black;
+    width: calc(100% - 40px);
+    padding: 0px 20px;
+    color: white;
+    position: relative;
+}
+
+.footer-social-media-icons{
+    float: right;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}

@@ -1,0 +1,47 @@
+.header{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    height:150px;
+
+}
+
+.header-col1{
+    align-self: center;
+    text-align: left;
+    display: grid;
+    grid-template-columns: 110px auto;
+}
+
+.header-col1 .header-logo{
+    padding: 10px;
+
+}
+.header-col1 .header-myfi{
+    padding: 10px;
+    grid-column: 2 / 2;
+    align-self: center;
+}
+
+
+.header-col2{
+    align-self: end;
+    display: grid;
+    grid-template-rows: 75px auto;
+
+}
+
+.header-col2 .navigation-link{
+    margin: 0px 1px;
+    grid-area: 2;
+    align-self: end;
+}
+
+.header-col2 .navigation-link:last-child{
+    margin-right: -20px;
+}
+
+.header-col2 .social-media-bar-outer{
+    grid-column: 5 / 5;
+    align-self: end;
+    text-align: right;
+}

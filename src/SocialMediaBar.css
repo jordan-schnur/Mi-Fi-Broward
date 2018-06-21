@@ -1,0 +1,17 @@
+.corner-triangle{
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 0 50px 50px;
+    border-color: transparent transparent #adadad transparent;
+    position: relative;
+    top: -27px;
+}
+
+.social-media-bar{
+    background-color: #adadad;
+    height:50px;
+    width: calc(100% - 69px);
+    display: inline-block;
+    text-align: left;
+}

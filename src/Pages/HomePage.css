@@ -1,0 +1,12 @@
+.content-outer{
+    background-color: orange;
+    min-height: 800px;
+    text-align: center;
+}
+
+.home-video{
+    padding: 5px;
+    background-color: white;
+    border: 2px solid black;
+    margin: 0px auto;
+}

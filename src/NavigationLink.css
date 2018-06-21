@@ -1,0 +1,25 @@
+.navigation-link {
+    -webkit-transform: skew(-20deg);
+    -moz-transform: skew(-20deg);
+    -o-transform: skew(-20deg);
+    background: black;
+    display: inline-block;
+    text-decoration: none;
+    height: fit-content;
+    transition: background-color 250ms;
+}
+
+.navigation-link-text{
+    -webkit-transform: skew(20deg);
+    -moz-transform: skew(20deg);
+    -o-transform: skew(20deg);
+    padding: 15px 60px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+
+}
+.navigation-link:hover{
+    background-color: #222222;
+    transition: background-color 250ms;
+}
