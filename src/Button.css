@@ -1,0 +1,14 @@
+.button{
+    background-color: #002060;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    display: inline-block;
+    border-radius: 10px;
+    border: 2px solid gray;
+}
+
+.button span{
+    display: block;
+    padding: 15px 75px;
+}

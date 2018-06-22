@@ -6,11 +6,17 @@ import HomePage from "./Pages/HomePage";
 import Footer from "./Footer";
 
 class App extends Component {
+
+
+
   render() {
     return (
       <div className="App">
         <Header/>
-        <HomePage/>
+          <div class="content-outer">
+              <HomePage/>
+          </div>
+
         <Footer/>
       </div>
     );
